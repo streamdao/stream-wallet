@@ -1,0 +1,47 @@
+{
+    "expo": {
+        "name": "streamdao",
+        "slug": "wallet",
+        "version": "0.0.1",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "scheme": "stream",
+        "userInterfaceStyle": "automatic",
+        "splash": {
+            "image": "./assets/images/splash_stream.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "backgroundColor": "#ffffff",
+            "bundleIdentifier": "org.streamdao.wallet",
+            "buildNumber": "0.0.1"
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/images/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "package": "org.streamdao.wallet",
+            "versionCode": 1
+        },
+        "web": {
+            "favicon": "./assets/images/favicon.png"
+        },
+        "plugins": ["sentry-expo"],
+        "hooks": {
+            "postPublish": [{
+                "file": "sentry-expo/upload-sourcemaps",
+                "config": {
+                    "organization": "stream-dao-wallet",
+                    "project": "react-native",
+                    "authToken": ""
+                }
+            }]
+        }
+    }
+}
