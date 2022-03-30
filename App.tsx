@@ -66,7 +66,7 @@ export default function App() {
 	} else {
 		// return (
 		// 	<View>
-		// 		<Text>helloo</Text>
+		// 		<Text>hello</Text>
 		// 	</View>
 		// );
 		return (

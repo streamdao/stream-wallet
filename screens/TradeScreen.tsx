@@ -163,7 +163,7 @@ const TradeScreen = ({ navigation, route }: Props) => {
 					(token) => token.symbol === pair.to.symbol,
 				) ? (
 					<>
-						{console.log('hellooooooo')}
+						{console.log('helloooooo')}
 						<TouchableOpacity
 							style={styles.swapContainer}
 							onPress={() => {
