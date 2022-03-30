@@ -10,4 +10,4 @@ To try it out do the following:
 
 StreamPay is a non-custodial wallet and therefore does not store data about you or your wallet. Your wallet secret phrase is encrypted on the device and can only be accessed using the passcode you set up locally.
 
-Please let us know what you think and be sure to give us a follow on Twitter for Radiant Wallet updates: https://twitter.com/dao_stream
+Please let us know what you think and be sure to give us a follow on Twitter for StreamPay Wallet updates: https://twitter.com/dao_stream
