@@ -1,4 +1,4 @@
-# StreamDAO Wallet
+# Stream Wallet
 
 StreamPay Wallet is the contactless, simplest mobile wallet for the Solana ecosystem.
 
