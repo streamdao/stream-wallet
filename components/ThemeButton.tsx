@@ -11,7 +11,7 @@ const ThemeButton = ({ mode, style, children, icon, ...props }: Props) => {
 			style={[
 				styles.button,
 				mode === 'outlined' && {
-					backgroundColor: '#1a374d',
+					backgroundColor: '#243B55',
 					borderColor: theme.colors.black_one,
 					borderWidth: 1,
 				},
@@ -19,7 +19,7 @@ const ThemeButton = ({ mode, style, children, icon, ...props }: Props) => {
 			]}
 			labelStyle={[
 				styles.text,
-				mode === 'outlined' && { color: '#1E2122' },
+				mode === 'outlined' && { color: '#141E30' },
 				style,
 			]}
 			mode={mode}
@@ -39,13 +39,13 @@ const styles = StyleSheet.create({
 		// marginBottom: 16,
 		borderRadius: 20,
 		height: 56,
-		backgroundColor: '#1E2122',
+		backgroundColor: '#141E30',
 		justifyContent: 'center',
 	},
 	text: {
 		...theme.fonts.Azeret_Mono.Body_M_Bold,
 		lineHeight: 26,
-		color: '#1a374d',
+		color: '#243B55',
 	},
 });
 

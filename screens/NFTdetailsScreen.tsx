@@ -426,7 +426,7 @@ const NFTdetailsScreen = ({ navigation, route }: Props) => {
 						borderRadius: 18,
 						height: 56,
 						alignSelf: 'stretch',
-						backgroundColor: '#1E2122',
+						backgroundColor: '#141E30',
 						justifyContent: 'center',
 					}}
 				>

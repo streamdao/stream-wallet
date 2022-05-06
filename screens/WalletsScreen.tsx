@@ -434,14 +434,14 @@ const WalletsScreen = ({ navigation }: Props) => {
 					</View>
 					<View style={styles.setAsActiveButton}>
 						{/* <TouchableOpacity
-							style={{borderRadius: 20, height: 56, backgroundColor: '#1E2122', justifyContent: 'center', alignItems: 'center', borderColor: theme.colors.black_one, borderWidth: 1,}}
+							style={{borderRadius: 20, height: 56, backgroundColor: '#141E30', justifyContent: 'center', alignItems: 'center', borderColor: theme.colors.black_one, borderWidth: 1,}}
 							onPress={async () => {
 								bottomSheetModalRef.current?.dismiss()
 								console.log('closed')
 							}}
 						>
 							<Text
-								style={{...theme.fonts.Azeret_Mono.Body_M_Bold, lineHeight: 26, color: '#1a374d', justifyContent: 'center',}}
+								style={{...theme.fonts.Azeret_Mono.Body_M_Bold, lineHeight: 26, color: '#243B55', justifyContent: 'center',}}
 							>
 								No, Stay Logged In
 							</Text>
